@@ -8,7 +8,7 @@ This project explores the Multi-Element Long Distance Dependency (ME-LDD) in seq
 ## Strictly _k_-Piecewise Datasets
 SP-_k_ are _sub-regular_ grammars. SP-_k_ strings are generated using Foma tool. Our datasets contain strings of length from 60 to 100 in similar proportion.
 
-## How to generate the datasets
+### How to generate the datasets
 1. Select value of _k_
    - Every dataset is generated for a specific value of _k_.
 2. Select _Vocabulary Size_
@@ -22,7 +22,7 @@ SP-_k_ are _sub-regular_ grammars. SP-_k_ strings are generated using Foma tool.
    - Foma generates SP-_k_ strings of a particular length. Hence, we are required to generate strings of all the lenghts one by one and then append them in a dataset.
 5. Use foma to generate strings
 
-### Generate Strings using foma
+#### Generate Strings using foma
 Based on the selections above, use foma commands as shown below to generate the strings
 ```
 define Exp(A,X) ~[?* <> X] & A^90;
@@ -36,9 +36,9 @@ One can also store all these commands in a _.foma_ script file and run using
 ```
 foma -f <filename>.foma
 ```
-### Generate the Dataset for SP-_k_
+#### Generate the Dataset for SP-_k_
 
-### Simplifying things
+#### Simplifying things
 
 ## Language Models Trained
 - [Transformer-XL](https://github.com/kimiyoung/transformer-xl)
