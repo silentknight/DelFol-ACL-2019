@@ -38,9 +38,22 @@ foma -f <filename>.foma
 ```
 #### Generate the Dataset for SP-_k_
 
+
 ### Simplifying things
 
-## Language Models Trained
+## Attention Mechanism and ME-LDDs
+The datasets used for training the LMs are in the directory Datasets. The folder structure is as below:
+```
+    Datasets
+    ├── SPk_v4
+    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+    │   └── unit                # Unit tests
+    ├── SPk_v26                    # Test files (alternatively `spec` or `tests`)
+    │   ├── benchmarks          # Load and stress tests
+    └── ...
+```
+
+### Language Models Trained
 - [Transformer-XL](https://github.com/kimiyoung/transformer-xl)
 - [AWD-LSTM](https://github.com/salesforce/awd-lstm-lm)
 
