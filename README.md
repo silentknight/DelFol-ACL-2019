@@ -46,11 +46,25 @@ The datasets used for training the LMs are in the directory Datasets. The folder
 ```
     Datasets
     ├── SPk_v4
-    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-    │   └── unit                # Unit tests
-    ├── SPk_v26                    # Test files (alternatively `spec` or `tests`)
-    │   ├── benchmarks          # Load and stress tests
-    └── ...
+    │   ├── SP2
+    │   │   ├── train.txt
+    │   │   ├── test.txt
+    │   │   └── valid.txt
+    │   ├── SP4
+    │   │   └── ...
+    │   ├── SP8
+    │   │   └── ...
+    │   └── SP16
+    │   │   └── ...
+    └── SPk_v26
+        ├── SP2
+        │   └── ...
+        ├── SP4
+        │   └── ...
+        ├── SP6
+        │   └── ...
+        └── SP8
+            └── ...
 ```
 
 ### Language Models Trained
