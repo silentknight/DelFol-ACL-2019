@@ -38,10 +38,14 @@ foma -f <filename>.foma
 ```
 ### Generate the Dataset for SP-_k_
 
+### Simplifying things
+
 ## Language Models Trained
 - [Transformer-XL](https://github.com/kimiyoung/transformer-xl)
 - [AWD-LSTM](https://github.com/salesforce/awd-lstm-lm)
 
+## Results of Training
+![image](https://raw.githubusercontent.com/silentknight/DelFol-ACL-2019/master/perplexity.png)
 <!--## Please cite the paper
 ```
 Hello
