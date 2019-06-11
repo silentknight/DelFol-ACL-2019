@@ -20,7 +20,7 @@ SP-_k_ are _sub-regular_ grammars. SP-_k_ strings are generated using Foma tool.
    - E.g. for _k_=2, we choose {ab, bc, cd, dc}.
 4. Select String Length
    - Foma generates SP-_k_ strings of a particular length. Hence, we are required to generate strings of all the lenghts one by one and then append them in a dataset.
-5. Use foma to generate strings
+5. Use foma to generate strings and python to create the datasets.
 
 #### Generate Strings using foma
 Based on the selections above, use foma commands as shown below to generate the strings
@@ -38,7 +38,7 @@ foma -f <filename>.foma
 ```
 #### Generate the Dataset for SP-_k_
 
-#### Simplifying things
+### Simplifying things
 
 ## Language Models Trained
 - [Transformer-XL](https://github.com/kimiyoung/transformer-xl)
