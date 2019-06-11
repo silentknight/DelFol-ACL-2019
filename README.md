@@ -44,7 +44,7 @@ foma -f <filename>.foma
 - [Transformer-XL](https://github.com/kimiyoung/transformer-xl)
 - [AWD-LSTM](https://github.com/salesforce/awd-lstm-lm)
 
-## Results of Training
+### Results of Training
 ![image](https://raw.githubusercontent.com/silentknight/DelFol-ACL-2019/master/perplexity.png)
 <!--## Please cite the paper
 ```
