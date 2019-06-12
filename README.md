@@ -36,12 +36,19 @@ One can also store all these commands in a script file with  _.foma_ extension a
 ```
 foma -f <filename>.foma
 ```
+
+#### Simplifying things
+Files below are used to create these strings of all specified lengths in a batch. These files are in _Foma_Scripts_.
+```
+main
+SP_Template
+```
+
 #### Generate the Dataset for SP-_k_
+To create datasets of a specific grammar of various strings, we use the following code.
 ```
 process_data.py
 ```
-
-### Simplifying things
 
 ## Attention Mechanism and ME-LDDs
 The datasets used for training the LMs are in the directory Datasets. The folder structure is as below:
