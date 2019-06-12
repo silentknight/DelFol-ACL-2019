@@ -82,7 +82,8 @@ The datasets used for training the LMs are in the directory Datasets. The folder
 
 ### Results of Training
 ![image](https://raw.githubusercontent.com/silentknight/DelFol-ACL-2019/master/perplexity.png)
-<!--## Please cite the paper
+
+<!--## Cite our paper
 ```
 Hello
 ```-->
