@@ -32,12 +32,14 @@ print random-words 100000
 ```
 These commands produce strings of size 90; with vocabulary of {a, b, c, d}, vocabulary size of 4; and forbidden strings of {ab, bc, cd, dc}. These commands generate 100000 strings.
 
-One can also store all these commands in a _.foma_ script file and run using
+One can also store all these commands in a script file with  _.foma_ extension and run using
 ```
 foma -f <filename>.foma
 ```
 #### Generate the Dataset for SP-_k_
-
+```
+process_data.py
+```
 
 ### Simplifying things
 
